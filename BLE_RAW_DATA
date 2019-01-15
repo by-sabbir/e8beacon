@@ -1,0 +1,24 @@
+['ADVERTISING_INTERVAL', 'APPEARANCE', 'COMPLETE_128B_SERVICES', 'COMPLETE_16B_SERVICES', 'COMPLETE_32B_SERVICES', 'COMPLETE_LOCAL_NAME', 'FLAGS', 'INCOMPLETE_128B_SERVICES', 'INCOMPLETE_16B_SERVICES', 'INCOMPLETE_32B_SERVICES', 'MANUFACTURER', 'PUBLIC_TARGET_ADDRESS', 'RANDOM_TARGET_ADDRESS', 'SERVICE_DATA_128B', 'SERVICE_DATA_16B', 'SERVICE_DATA_32B', 'SERVICE_SOLICITATION_128B', 'SERVICE_SOLICITATION_16B', 'SERVICE_SOLICITATION_32B', 'SHORT_LOCAL_NAME', 'TX_POWER', '__doc__', '__init__', '__module__', '_decodeUUID', '_decodeUUIDlist', '_update', 'addr', 'addrType', 'addrTypes', 'connectable', 'dataTags', 'getDescription', 'getScanData', 'getValue', 'getValueText', 'iface', 'rawData', 'rssi', 'scanData', 'updateCount']
+dir of getValue method
+
+
+scan data:
+
+[(1, 'Flags', u'06'), (3, 'Complete 16b Services', '0000fff1-0000-1000-8000-00805f9b34fb'), (22, '16b Service Data', u'e2c56db5dffb48d2b060d0f5a71096e000000000c564')]
+
+aafe00e800112233445566778899abcdef7700ed
+aafe20000c48180000120c190026b0ec
+aafe00e800112233445566778899abcdef7700ed
+e1ffa103640082ff29002306a1253f23ac
+
+tlm data
+aafe20000c54190000121a550026db80
+aafe20000c54190000121a150026db4e
+on move = aafe20000c4e1a000012330c00271ad2
+stable = e1ffa1086406a1253f23ac504c5553
+e2c56db5dffb48d2b060d0f5a71096e000000000c564
+
+
+acc data:
+first pos (notebook): aafe10e8006d696e65777465636800
+acc data: e1ffa10364005e00c5ffbe06a1253f23ac
